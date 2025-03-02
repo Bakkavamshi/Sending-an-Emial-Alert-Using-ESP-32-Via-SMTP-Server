@@ -28,26 +28,32 @@ This project demonstrates how to send an email alert using an ESP32 microcontrol
 | Gmail     | smtp.gmail.com   | 465  |
 | Outlook   | smtp.office365.com | 587  |
 
-## Results 🎯
+## Demo 🎬
+The ESP32 connects to Wi-Fi and sends an email alert to the configured recipient.  
+📺 **Watch the Demo Video:**  
+[![Watch the video](video/demo_thumbnail.png)](video/video_2025-03-02_14-50-49.mp4)
+
+## Result 🎯
 The ESP32 Email Alert system was successfully implemented with the following outcomes:
 
 1. **Wi-Fi Connectivity**:  
-   - The ESP32 connected to the configured Wi-Fi network and retrieved an IP address.
+   - The ESP32 connected to the configured Wi-Fi network and retrieved an IP address.  
    
 2. **SMTP Communication**:  
-   - The ESP32 securely connected to the SMTP server (e.g., Gmail) using SSL/TLS.
-
+   - The ESP32 securely connected to the SMTP server (e.g., Gmail) using SSL/TLS.  
+   
 3. **Email Delivery**:  
    - Emails were successfully sent to the specified recipient address.  
-   - The email contained the configured subject, sender details, and body text.
+   - The email contained the configured subject, sender details, and body text.  
 
 4. **Debug Output**:  
-   - Serial Monitor displayed connection status, logs, and success/error messages.
+   - Serial Monitor displayed connection status, debug logs, and success/error messages.  
 
-### 📹 Demo Video  
-**Watch the demo here:**  
-[📺 Click to Watch](video/video_2025-03-02_14-50-49.mp4)  
+## Conclusion
+The ESP32 Email Alert project demonstrates how to use the ESP32 microcontroller for sending automated email notifications. This can be extended for applications such as:
 
----
+- Real-time alerts from IoT sensors (e.g., temperature, motion, or humidity).
+- Remote monitoring and control systems.
+- Emergency notifications.
 
-### **Project Structure**
+The project is flexible and can be configured with any SMTP provider by updating the server details, making it adaptable for various IoT use cases.
